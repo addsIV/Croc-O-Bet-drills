@@ -1,0 +1,226 @@
+{
+  "base_width": 1024,
+  "base_height": 1024,
+  "teeth": [
+    {
+      "id": 0,
+      "x": 185,
+      "y": 220,
+      "width": 124,
+      "height": 180,
+      "image": "tooth00.png",
+      "left_pct": 18.06640625,
+      "top_pct": 21.484375,
+      "width_pct": 12.109375
+    },
+    {
+      "id": 1,
+      "x": 178,
+      "y": 178,
+      "width": 164,
+      "height": 316,
+      "image": "tooth01.png",
+      "left_pct": 17.3828125,
+      "top_pct": 17.3828125,
+      "width_pct": 16.015625
+    },
+    {
+      "id": 2,
+      "x": 293,
+      "y": 24,
+      "width": 188,
+      "height": 416,
+      "image": "tooth02.png",
+      "left_pct": 28.61328125,
+      "top_pct": 2.34375,
+      "width_pct": 18.359375
+    },
+    {
+      "id": 3,
+      "x": 288,
+      "y": 17,
+      "width": 208,
+      "height": 436,
+      "image": "tooth03.png",
+      "left_pct": 28.125,
+      "top_pct": 1.66015625,
+      "width_pct": 20.3125
+    },
+    {
+      "id": 4,
+      "x": 304,
+      "y": 7,
+      "width": 232,
+      "height": 424,
+      "image": "tooth04.png",
+      "left_pct": 29.6875,
+      "top_pct": 0.68359375,
+      "width_pct": 22.65625
+    },
+    {
+      "id": 5,
+      "x": 588,
+      "y": 0,
+      "width": 228,
+      "height": 424,
+      "image": "tooth05.png",
+      "left_pct": 57.421875,
+      "top_pct": 0.0,
+      "width_pct": 22.265625
+    },
+    {
+      "id": 6,
+      "x": 638,
+      "y": 19,
+      "width": 208,
+      "height": 436,
+      "image": "tooth06.png",
+      "left_pct": 62.3046875,
+      "top_pct": 1.85546875,
+      "width_pct": 20.3125
+    },
+    {
+      "id": 7,
+      "x": 656,
+      "y": 27,
+      "width": 188,
+      "height": 416,
+      "image": "tooth07.png",
+      "left_pct": 64.0625,
+      "top_pct": 2.63671875,
+      "width_pct": 18.359375
+    },
+    {
+      "id": 8,
+      "x": 791,
+      "y": 180,
+      "width": 168,
+      "height": 312,
+      "image": "tooth08.png",
+      "left_pct": 77.24609375,
+      "top_pct": 17.578125,
+      "width_pct": 16.40625
+    },
+    {
+      "id": 9,
+      "x": 825,
+      "y": 228,
+      "width": 124,
+      "height": 176,
+      "image": "tooth09.png",
+      "left_pct": 80.56640625,
+      "top_pct": 22.265625,
+      "width_pct": 12.109375
+    },
+    {
+      "id": 10,
+      "x": 209,
+      "y": 487,
+      "width": 128,
+      "height": 276,
+      "image": "tooth10.png",
+      "left_pct": 20.41015625,
+      "top_pct": 47.55859375,
+      "width_pct": 12.5
+    },
+    {
+      "id": 11,
+      "x": 286,
+      "y": 479,
+      "width": 168,
+      "height": 384,
+      "image": "tooth11.png",
+      "left_pct": 27.9296875,
+      "top_pct": 46.77734375,
+      "width_pct": 16.40625
+    },
+    {
+      "id": 12,
+      "x": 128,
+      "y": 560,
+      "width": 184,
+      "height": 464,
+      "image": "tooth12.png",
+      "left_pct": 12.5,
+      "top_pct": 54.6875,
+      "width_pct": 17.96875
+    },
+    {
+      "id": 13,
+      "x": 124,
+      "y": 540,
+      "width": 192,
+      "height": 484,
+      "image": "tooth13.png",
+      "left_pct": 12.109375,
+      "top_pct": 52.734375,
+      "width_pct": 18.75
+    },
+    {
+      "id": 14,
+      "x": 127,
+      "y": 611,
+      "width": 188,
+      "height": 404,
+      "image": "tooth14.png",
+      "left_pct": 12.40234375,
+      "top_pct": 59.66796875,
+      "width_pct": 18.359375
+    },
+    {
+      "id": 15,
+      "x": 525,
+      "y": 546,
+      "width": 188,
+      "height": 400,
+      "image": "tooth15.png",
+      "left_pct": 51.26953125,
+      "top_pct": 53.3203125,
+      "width_pct": 18.359375
+    },
+    {
+      "id": 16,
+      "x": 528,
+      "y": 540,
+      "width": 188,
+      "height": 484,
+      "image": "tooth16.png",
+      "left_pct": 51.5625,
+      "top_pct": 52.734375,
+      "width_pct": 18.359375
+    },
+    {
+      "id": 17,
+      "x": 534,
+      "y": 564,
+      "width": 180,
+      "height": 460,
+      "image": "tooth17.png",
+      "left_pct": 52.1484375,
+      "top_pct": 55.078125,
+      "width_pct": 17.578125
+    },
+    {
+      "id": 18,
+      "x": 770,
+      "y": 490,
+      "width": 168,
+      "height": 384,
+      "image": "tooth18.png",
+      "left_pct": 75.1953125,
+      "top_pct": 47.8515625,
+      "width_pct": 16.40625
+    },
+    {
+      "id": 19,
+      "x": 810,
+      "y": 472,
+      "width": 128,
+      "height": 276,
+      "image": "tooth19.png",
+      "left_pct": 79.1015625,
+      "top_pct": 46.09375,
+      "width_pct": 12.5
+    }
+  ]
+}
