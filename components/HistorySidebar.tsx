@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { HistoryItem } from '../types';
+import StatusBadge from './StatusBadge';
 
 interface HistorySidebarProps {
   history: HistoryItem[];
@@ -20,6 +21,11 @@ const HistorySidebar: React.FC<HistorySidebarProps> = ({ history }) => {
           <div key={item.id} className="bg-slate-800/80 rounded-lg p-3 flex justify-between items-center border border-slate-700">
             <div>
               <div className="text-[10px] text-slate-500">{item.time}</div>
+              <StatusBadge
+                icon={item.status === 'WIN' ? 'Trophy' : 'Skull'}
+                label={item.status}
+                tone={item.status === 'WIN' ? 'win' : 'loss'}
+              />
               <div className="text-sm font-bold">${item.bet.toFixed(2)}</div>
             </div>
             <div className="text-right">
