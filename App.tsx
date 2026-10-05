@@ -1,9 +1,9 @@
 
-import React, { useState } from 'react';
+import React, { useState, lazy, Suspense } from 'react';
 import { Coins, Flame, Skull, TrendingUp, Info } from 'lucide-react';
 import { TOTAL_TEETH } from './constants';
 import Crocodile from './components/Crocodile';
-import CrocodileAssembler from './components/CrocodileAssembler';
+const CrocodileAssembler = lazy(() => import('./components/CrocodileAssembler'));
 import HistorySidebar from './components/HistorySidebar';
 import { PenTool } from 'lucide-react';
 import { useCrocGame } from './src/hooks/useCrocGame';
@@ -31,7 +31,11 @@ const App: React.FC = () => {
   const [showAssembler, setShowAssembler] = useState(false);
 
   if (showAssembler) {
-    return <CrocodileAssembler onBack={() => setShowAssembler(false)} />;
+    return (
+      <Suspense fallback={<div className="p-8 text-slate-400">Loading assembler…</div>}>
+        <CrocodileAssembler onBack={() => setShowAssembler(false)} />
+      </Suspense>
+    );
   }
 
   return (
