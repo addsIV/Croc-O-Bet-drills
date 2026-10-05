@@ -3,6 +3,7 @@ import { GameStatus, HistoryItem } from '../../types';
 import { TOTAL_TEETH, INITIAL_BALANCE } from '../../constants';
 import { calculateMultiplier, generateTraps } from '../../services/math';
 import { audioService } from '../../services/audio';
+import { reportRound } from '../../services/api';
 
 export const useCrocGame = () => {
     const [balance, setBalance] = useState(INITIAL_BALANCE);
@@ -49,6 +50,7 @@ export const useCrocGame = () => {
                 status: 'LOSS'
             };
             setHistory(prev => [newHistory, ...prev].slice(0, 20));
+            reportRound(newHistory);
         } else {
             const nextCount = clickedTeeth.length + 1;
             setClickedTeeth(prev => [...prev, id]);
@@ -73,6 +75,7 @@ export const useCrocGame = () => {
             status: 'WIN'
         };
         setHistory(prev => [newHistory, ...prev].slice(0, 20));
+        reportRound(newHistory);
     }, [status, clickedTeeth, betAmount, currentMultiplier]);
 
     const handleReset = useCallback(() => {
